@@ -1,0 +1,53 @@
+body{
+    font-family: monospace;
+    background-color: #900214;
+}
+
+a:link {
+  color: black;
+  font-family: monospace;
+}
+
+a:hover {
+  border-radius: 5px;
+  background-image: linear-gradient(to top, rgba(2,230,3,0.8), rgba(0,0,0,0));
+}
+
+.site-body {
+  max-width: 1300px;
+  margin: auto;
+  background-color: #900214;
+}
+
+.logo-box{
+    background-color: rgba(0,0,0,0.6);
+    color: #ffffff;
+}
+
+.panel-box {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgba(255,155,230,0.6);
+}
+
+.panel-title {
+    text-align: center;
+}
+
+.center {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-text{
+  text-align: right;
+}
+
+
+
+.footer {
+    height: 100px;
+}
